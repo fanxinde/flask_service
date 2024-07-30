@@ -1,0 +1,33 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.225.71:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 607-587-262
+103.85.170.24 - - [30/Jul/2024 15:56:03] "GET / HTTP/1.1" 200 -
+/root/flask_service/app.py:56: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  plt.legend()
+103.85.170.24 - - [30/Jul/2024 15:56:04] "POST / HTTP/1.1" 200 -
+123.112.10.21 - - [30/Jul/2024 16:11:42] "GET / HTTP/1.1" 200 -
+123.112.10.21 - - [30/Jul/2024 16:13:41] "GET / HTTP/1.1" 200 -
+103.85.170.24 - - [30/Jul/2024 16:15:58] "GET / HTTP/1.1" 200 -
+103.85.170.24 - - [30/Jul/2024 16:16:02] "POST / HTTP/1.1" 200 -
+123.112.10.21 - - [30/Jul/2024 16:17:26] "GET / HTTP/1.1" 200 -
+123.112.10.21 - - [30/Jul/2024 16:17:33] "POST / HTTP/1.1" 200 -
+79.124.49.214 - - [30/Jul/2024 17:00:08] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [30/Jul/2024 17:00:08] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+79.124.49.214 - - [30/Jul/2024 18:14:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [30/Jul/2024 18:14:12] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+71.131.247.249 - - [30/Jul/2024 20:07:32] "GET / HTTP/1.1" 200 -
+71.131.247.249 - - [30/Jul/2024 20:07:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+71.131.247.249 - - [30/Jul/2024 20:07:32] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+71.131.247.249 - - [30/Jul/2024 20:07:32] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+79.124.49.214 - - [30/Jul/2024 22:38:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [30/Jul/2024 22:38:50] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+117.129.66.58 - - [30/Jul/2024 22:39:25] "GET / HTTP/1.1" 200 -
+117.129.66.58 - - [30/Jul/2024 22:39:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
